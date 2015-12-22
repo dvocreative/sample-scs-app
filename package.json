@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/dvocreative/sample-scs-app/issues"
   },
-  "homepage": "https://github.com/dvocreative/sample-scs-app#readme"
+  "homepage": "https://github.com/dvocreative/sample-scs-app#readme",
+  "dependencies": {
+    "abstract-a": "^1.0.1",
+    "ged-store": "^1.0.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
 }
