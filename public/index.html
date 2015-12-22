@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>SCS App Demo</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="app-container"></div>
+
+    <script type="text/javascript" src="node_modules/react/dist/react.min.js"></script>
+    <script type="text/javascript" src="node_modules/react-dom/dist/react-dom.min.js"></script>
+    <script type="text/javascript" src="node_modules/ged-store/src/ged-store.js"></script>
+    <script type="text/javascript" src="node_modules/abstract-a/src/a.js"></script>
+
+    <script type="text/javascript" src="js/abstractor.js"></script>
+
+    <!--all 3rd party libs should be behind the abstractor-->
+
+    <script type="text/javascript" src="js/component/app.js"></script>
+
+    <script type="text/javascript" src="js/service/router.js"></script>
+    <script type="text/javascript" src="js/service/api.js"></script>
+
+    <script type="text/javascript" src="js/app/bootstrap.js"></script>
+    <script type="text/javascript" src="js/app/render.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <!--all app-specific components and services should be behind the App class-->
+
+    <script>
+
+        var app = new App({}, {
+            root : window
+        });
+
+        //all app config and environment libs/pars should be behind here
+
+        app.mount(document.getElementById('app-container'));
+
+        //all app presentation end points behind here
+
+        app.run();
+
+    </script>
+
+</body>
+</html>

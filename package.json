@@ -1,0 +1,19 @@
+{
+  "name": "sample-scs-app",
+  "version": "1.0.0",
+  "description": "Sample state-component-service app using abstraction library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dvodonnell@github.com/dvocreative/sample-scs-app.git"
+  },
+  "author": "Dan O'Donnell <dan@dvoc.ca> (http://dvoc.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvocreative/sample-scs-app/issues"
+  },
+  "homepage": "https://github.com/dvocreative/sample-scs-app#readme"
+}
